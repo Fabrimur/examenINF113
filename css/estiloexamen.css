@@ -1,0 +1,45 @@
+*{
+	font-family:verdana;
+	margin: 3px;
+	padding: 3px;
+}
+h1{
+	color:AC00BF;
+	text-align:center;
+}
+header{
+	height:20%;
+	background-color:#51f59b;
+}
+table, td{
+	border:2px solid rgb(43, 85, 5);
+	border-collapse: collapse brown;
+	padding: 10px;
+}
+#cont1{
+	background:#8cf18c;
+}
+@media screen and (max-width:500px)
+{
+	#cont1{
+		background:yellow;
+}
+@media screen and (min-width:500px)
+{
+	#cont1{
+		background:#ACFFFF;
+}
+@media(orientation:landscape)
+{
+	body{
+		background:magenta
+	}
+}
+@media(orientation:portrait)
+{
+	body{
+		background:red;
+	}
+}
+}
+}
